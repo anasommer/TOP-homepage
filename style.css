@@ -8,6 +8,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   position: relative;
+  max-width: 1200px;
+  margin: auto;
 }
 
 h1,
@@ -28,3 +30,5 @@ h4 {
   z-index: -1;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.513);
 }
+
+/* Header */
