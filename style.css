@@ -149,3 +149,54 @@ h2 {
 .social-icons-footer img {
   margin-right: 10px;
 }
+
+/* Tablet */
+@media (max-width: 960px) {
+  .bg-line {
+    width: 100vw;
+    height: 45vh;
+    top: -25vh;
+  }
+  /* About me */
+  .about-me {
+    margin-top: 100px;
+    max-width: 500px;
+  }
+
+  #name {
+    top: 0;
+    left: 150px;
+    margin: 0;
+  }
+
+  .about-me .social-icons {
+    display: none;
+  }
+  /* Work */
+  h2 {
+    margin-left: 150px;
+  }
+  .work {
+    grid-template-columns: repeat(2, 1fr);
+
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .work-item > img {
+    width: 100%;
+  }
+
+  .contact-details {
+    max-width: 300px;
+  }
+
+  .contact-img img {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+}
