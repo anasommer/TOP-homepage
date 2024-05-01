@@ -1,3 +1,6 @@
+:root {
+  --white-color: #fff;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,8 +11,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   position: relative;
-  max-width: 1200px;
-  margin: auto;
+  max-width: 1400px;
+  margin: 30px auto;
 }
 
 h1,
@@ -31,4 +34,37 @@ h4 {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.513);
 }
 
+/* Utilities */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
 /* Header */
+.about-me {
+  background-color: var(--white-color);
+  padding: 40px 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  max-width: 800px;
+}
+
+.about-me h1 {
+  margin-bottom: 20px;
+}
+
+#profile-img {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+#name {
+  position: absolute;
+  top: 400px;
+  left: 80px;
+  color: var(--white-color);
+  font-size: 2rem;
+}
