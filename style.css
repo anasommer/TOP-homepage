@@ -1,5 +1,6 @@
 :root {
   --white-color: #fff;
+  --shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 * {
   box-sizing: border-box;
@@ -11,7 +12,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   position: relative;
-  max-width: 1400px;
+  max-width: 1000px;
   margin: 30px auto;
 }
 
@@ -24,7 +25,8 @@ h4 {
 }
 
 .bg-line {
-  width: 100%;
+  width: 100vw;
+  max-width: 1000px;
   height: 60vh;
   background-color: rgb(8, 145, 178);
   position: absolute;
@@ -42,12 +44,28 @@ h4 {
   padding: 0 40px;
 }
 
+.social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.social-icons img {
+  width: 20px;
+}
+
 /* Header */
 .about-me {
   background-color: var(--white-color);
   padding: 40px 20px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  max-width: 800px;
+  box-shadow: var(--shadow);
+  max-width: 600px;
+}
+
+.about-me-left {
+  position: relative;
+  max-width: 400px;
 }
 
 .about-me h1 {
@@ -55,16 +73,15 @@ h4 {
 }
 
 #profile-img {
-  position: relative;
   width: 100%;
-  max-width: 300px;
   height: auto;
+  box-shadow: var(--shadow);
 }
 
 #name {
   position: absolute;
   top: 400px;
-  left: 80px;
+  left: 30px;
   color: var(--white-color);
   font-size: 2rem;
 }
