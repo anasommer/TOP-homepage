@@ -14,6 +14,7 @@ body {
   position: relative;
   max-width: 1000px;
   margin: 30px auto;
+  height: 100vh;
 }
 
 h1,
@@ -78,7 +79,7 @@ h4 {
 }
 
 .about-me h1 {
-  margin-bottom: 20px;
+  margin-botom: 20px;
 }
 
 #profile-img {
@@ -97,7 +98,7 @@ h4 {
 
 /* Work section */
 h2 {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 .work {
@@ -126,16 +127,23 @@ h2 {
   align-items: flex-start;
   gap: 2rem;
   padding: 30px;
+  justify-content: space-between;
+}
+
+.contact-img {
+  margin: 0 auto;
 }
 
 .contact-img img {
-  height: 300px;
+  width: 300px;
+  height: 400px;
 }
 
 .contact-details {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  max-width: 600px;
 }
 
 .social-icons-footer img {
