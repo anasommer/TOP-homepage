@@ -44,6 +44,13 @@ h4 {
   padding: 0 40px;
 }
 
+.flex-container-small {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
 .social-icons {
   display: flex;
   gap: 10px;
@@ -55,7 +62,7 @@ h4 {
   width: 20px;
 }
 
-/* Header */
+/* About me section */
 .about-me {
   background-color: var(--white-color);
   padding: 40px 20px 20px;
@@ -80,8 +87,28 @@ h4 {
 
 #name {
   position: absolute;
-  top: 430px;
+  top: 410px;
   left: 55px;
   color: var(--white-color);
   font-size: 2rem;
+}
+
+/* Work section */
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.work {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.work-item {
+  box-shadow: rgba(0, 0, 0, 0.15) 0.8px 1.95px 2.6px 1px;
+  margin-bottom: 30px;
+}
+
+.work-item-details {
+  padding: 0 30px 40px;
 }
