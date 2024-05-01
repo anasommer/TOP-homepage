@@ -58,7 +58,9 @@ h4 {
   margin-top: 20px;
 }
 
-.social-icons img {
+.social-icons img,
+.contact-icons,
+.social-icons-footer img {
   width: 20px;
 }
 
@@ -111,4 +113,31 @@ h2 {
 
 .work-item-details {
   padding: 0 30px 40px;
+}
+
+/* Contact section */
+.contact h3 {
+  font-size: 1.5rem;
+}
+.contact {
+  margin: 30px 0;
+  background-color: rgb(8, 145, 178);
+  color: #fff;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 30px;
+}
+
+.contact-img img {
+  height: 300px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.social-icons-footer img {
+  margin-right: 10px;
 }
