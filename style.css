@@ -199,4 +199,42 @@ h2 {
 
 /* Mobile */
 @media (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+
+  .bg-line {
+    width: 100%;
+    height: 45vh;
+    top: -25vh;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  /* About me */
+  .about-me {
+    margin-top: 0;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .about-me h1 {
+    text-align: center;
+  }
+
+  #name {
+    left: 50px;
+    top: 270px;
+  }
+
+  .about-me .social-icons {
+    display: inline-block;
+  }
+
+  .social-icons {
+    width: 100%;
+    text-align: center;
+  }
 }
