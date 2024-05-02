@@ -157,6 +157,7 @@ h2 {
     height: 45vh;
     top: -25vh;
   }
+
   /* About me */
   .about-me {
     margin-top: 100px;
@@ -172,13 +173,13 @@ h2 {
   .about-me .social-icons {
     display: none;
   }
+
   /* Work */
   h2 {
     margin-left: 150px;
   }
   .work {
     grid-template-columns: repeat(2, 1fr);
-
     max-width: 600px;
     margin: 0 auto;
   }
@@ -187,6 +188,7 @@ h2 {
     width: 100%;
   }
 
+  /* Contact */
   .contact-details {
     max-width: 300px;
   }
@@ -236,5 +238,40 @@ h2 {
   .social-icons {
     width: 100%;
     text-align: center;
+  }
+
+  /* Work */
+  h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .work {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  /* Contact */
+  .contact {
+    width: 100%;
+    align-items: center;
+  }
+
+  .contact-img img {
+    width: auto;
+  }
+
+  .contact-details {
+    gap: 1.2rem;
+    max-width: 100%;
+  }
+
+  .contact-details h3 {
+    text-align: center;
+  }
+
+  span.social-icons-footer {
+    margin: 0 auto;
   }
 }
